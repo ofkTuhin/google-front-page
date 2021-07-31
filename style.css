@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+}
+.container{
+    width: 100%;
+  
+}
+.google-header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.gmail-img{
+
+    width: 40px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    position: relative;
+    height: 40px;
+    
+   
+}
+.gmail-img:hover{
+    background-color: #e2e7e7;
+}
+.gmail-img img{
+    width: 80%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.google-icon{
+    margin-right: 15px;
+    
+}
+.google-icon a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+ 
+}
+.google-icon a:hover{
+    border-bottom: 1px solid #010606;
+    color: #010606;
+    
+
+}
+.google-icon i{
+    font-size: 15px;
+    padding: 8px;
+    cursor: pointer;
+    color: #5f6368;
+}
+.google-icon i:hover{
+    border-radius: 50%;
+    background-color: #e2e7e7;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.main-content{
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+.main-img{
+    background-image: url(./google.svg);
+    height: 102px;
+    background-size: cover;
+    background-position: center;
+    width: 310px;
+    
+}
+.search-box{
+    width: 100%;
+    margin: auto;
+    padding: 0px 15px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+    margin: 35px 0px;
+}
+input{
+    border: none !important;
+    outline: 0;
+    border-color: white;
+}
+.fa-microphone{
+    background-color: white;
+}
+span{
+    display: flex;
+    background-color: white !important;
+    border: none !important;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.icons{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 100px;
+    margin: 10px 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    /* padding: 15px 0px; */
+}
+.plus-icon{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(220, 220, 236);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: auto;
+   
+}
+.icon:hover{
+    background-color: #5f63685c;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.fa-plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+
+@media screen and (max-width:776px){
+    .main-img{
+        width: 80%;
+        margin: auto;
+    }
+}
